@@ -95,6 +95,7 @@ int main () {
         assert(SUCCEEDED(hr));
     }
     pIY->Release();
+    pIX->Release();
     pIX2->Release();
 
     cout << "\n5) Если Вы смогли попасть куда-то хоть откуда-нибудь, Вы можете попасть туда откуда угодно\n" << endl;
